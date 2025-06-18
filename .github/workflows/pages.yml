@@ -12,30 +12,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 체크아웃
+      # 1. Checkout
       - uses: actions/checkout@v4
 
-      # 2. Ruby 설치
+      # 2. Setup Ruby
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0
 
-      # 3. 의존성 설치
+      # 3. Install dependencies
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
 
-      # 4. Jekyll 사이트 빌드
+      # 4. Build Jekyll site
       - name: Build site
         run: bundle exec jekyll build
 
-      # 5. Pages 설정
+      # 5. Configure Pages
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
 
-      # 6. _site 업로드
+      # 6. Upload the generated site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -49,6 +49,7 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
+      # 7. Deploy to Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
 
