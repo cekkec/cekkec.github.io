@@ -41,8 +41,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-feed (0.17.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-remote-theme (0.4.3)
       addressable (~> 2.0)
@@ -51,8 +49,6 @@ GEM
       rubyzip (>= 1.3.0, < 3.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
-    jekyll-seo-tag (2.8.0)
-      jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-spaceship (0.10.2)
@@ -72,10 +68,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    minima (2.5.2)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     nokogiri (1.17.2-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.17.2-x86_64-darwin)
@@ -119,7 +111,6 @@ DEPENDENCIES
   jekyll-remote-theme
   jekyll-sitemap
   jekyll-spaceship
-  minima (~> 2.5)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1)
