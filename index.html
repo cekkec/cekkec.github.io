@@ -14,19 +14,7 @@ layout: default
 </div>
 
 <!-- 📢 News 섹션 -->
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <h4 class="section-title">📢 News</h4>
-      <!-- 예: 최근 News 포스트 3개만 출력 -->
-      <ul class="news-list">
-        {% for post in site.posts limit:3 %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+{% include 1_news.html %}
 
 <!-- 📚 Publications 섹션 -->
 <div class="container">
