@@ -11,7 +11,7 @@ author:
   name: Eunki Cho
   image: cekkec95.jpg
   say-hello: Hello, I’m <strong>Eunki Cho</strong>
-  bio: I’m currently pursuing a Ph.D. in <strong><span style="color: #6B46C1;">Artificial Intelligence</span></strong> at <strong><span style="color: #3182CE;">Kyung Hee University</span></strong>, affiliated with the <strong><span style="color: #38A169;">Augmented Intelligence (AMI) Laboratory</span></strong> under the supervision of Prof. <strong>Seong-Tae Kim</strong>. My primary research interests include <strong>segmentation</strong> and <strong>generative modeling</strong> in <strong>computer vision</strong>, <strong>medical imaging</strong>, and <strong>remote sensing</strong>.
+  bio: "I’m currently pursuing a Ph.D. in <strong><span style='color: #6B46C1;'>Artificial Intelligence</span></strong> at <strong><span style='color: #3182CE;'>Kyung Hee University</span></strong>, affiliated with the <strong><span style='color: #38A169;'>Augmented Intelligence (AMI) Laboratory</span></strong> under the supervision of Prof. <strong>Seong-Tae Kim</strong>. My primary research interests include <strong>segmentation</strong> and <strong>generative modeling</strong> in <strong>computer vision</strong>, <strong>medical imaging</strong>, and <strong>remote sensing</strong>."
   # Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
 
 
