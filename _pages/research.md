@@ -7,8 +7,4 @@ permalink: /research/
 
 {% include publications.html %}
 
-***
 
-### Headings by default:
-# This is the default title
-…
