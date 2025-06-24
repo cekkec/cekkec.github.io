@@ -29,18 +29,26 @@
       margin: 1rem 0 !important;
     }
   </style>
-
+  
   <style>
     .section-block {
-      margin: 3rem 0;               /* 섹션별 위아래 여백 */
-      padding-bottom: 2rem;         /* 컨텐츠와 구분선 사이 여백 */
-      border-bottom: 1px solid #e2e8f0; /* 연한 회색 구분선 */
-    }
-    /* 마지막 섹션에는 구분선 제거 (원하면) */
-    .section-block:last-of-type {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
+    border-bottom: none !important;
+    margin: 3rem 0;
+    padding-bottom: 2rem;
+    position: relative;
+  }
+    .section-block::after {
+    content: "";
+    display: block;
+    width: 80px;             /* 밑줄의 길이 지정 */
+    height: 2px;             /* 두께 지정 */
+    background-color: #e2e8f0; /* 색상 지정 (기존 선 색과 동일) */
+    margin: 0 auto;          /* 가로 중앙 정렬 */
+    margin-top: 1rem;        /* 밑줄과 콘텐츠 사이 여백 */
+  }
+    .section-block:last-of-type::after {
+    display: none;
+  }
   </style>
-  
+
 </head>
