@@ -18,14 +18,15 @@ author:
 #-------------------------------
 # Contact links
 # twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://www.instagram.com/eunki_the/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
-
-cv: https://github.com/cekkec/cekkec.github.io/tree/master/files
-google_scholar: https://scholar.google.com/citations?user=r8FMiNQAAAAJ&hl=ko
+# facebook: https://facebook.com/ # Add your Facebook handle
+# dribbble: https://dribbble.com/ # Add your Dribbble handle
 lab_website: https://ami.khu.ac.kr/
+google_scholar: https://scholar.google.com/citations?user=r8FMiNQAAAAJ&hl=ko
+cv: https://github.com/cekkec/cekkec.github.io/tree/master/files
+instagram: https://www.instagram.com/eunki_the/ # Add your Instagram handle
+# pinterest: https://pinterest.com/ # Add your Pinterest handle
+
+
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
