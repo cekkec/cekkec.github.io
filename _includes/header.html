@@ -45,7 +45,25 @@
           <i class="nav__icon nav__icon-menu ion ion-md-menu" aria-label="Menu Icon"></i>
           <i class="nav__icon nav__icon-search ion ion-md-search" aria-label="Search Icon"></i>
         </div>
-
+        
+        <div class="header__links" style="display:flex; gap:0.5rem; align-items:center; margin-left:1rem;">
+          {% if site.data.settings.cv %}
+          <a href="{{ site.data.settings.cv }}" target="_blank" title="CV">
+            <i class="ion ion-md-document"></i>
+          </a>
+          {% endif %}
+          {% if site.data.settings.google_scholar %}
+          <a href="{{ site.data.settings.google_scholar }}" target="_blank" title="Google Scholar">
+            <i class="ion ion-logo-google"></i>
+          </a>
+          {% endif %}
+          {% if site.data.settings.lab_website %}
+          <a href="{{ site.data.settings.lab_website }}" target="_blank" title="Lab Homepage">
+            <i class="ion ion-md-home"></i>
+          </a>
+          {% endif %}
+        </div>
+        
         <div class="header__overlay"></div>
       </header>
       <!-- end header -->
