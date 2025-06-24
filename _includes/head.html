@@ -21,26 +21,26 @@
   {{ include_to_scssify | scssify }}
   </style>
 
-  <!-- _includes/head.html 에 추가 -->
   <style>
-    /* 1) 모든 section-title(타이틀) 아래 여백 줄이기 */
     .section-title {
-      /* 기본값 margin-bottom: 약 1.5rem 정도 → 0.75rem 로 축소 */
       margin-bottom: 0.75rem !important;
     }
-  
-    /* 2) Publications 각 항목(publication-item) 위아래 여백 줄이기 */
     .publication-item {
-      /* 기존 inline margin:2rem 0 → 1rem 0 으로 축소 */
       margin: 1rem 0 !important;
     }
-  
-    /* 3) Publications 첫 항목 위 여백만 살짝 유지하고 싶다면 */
-  /*  .publication-item:first-child {
-        margin-top: 0.5rem !important;
-      }*/
   </style>
 
-
+  <style>
+    .section-block {
+      margin: 3rem 0;               /* 섹션별 위아래 여백 */
+      padding-bottom: 2rem;         /* 컨텐츠와 구분선 사이 여백 */
+      border-bottom: 1px solid #e2e8f0; /* 연한 회색 구분선 */
+    }
+    /* 마지막 섹션에는 구분선 제거 (원하면) */
+    .section-block:last-of-type {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  </style>
   
 </head>
