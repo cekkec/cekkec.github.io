@@ -33,7 +33,11 @@
     {% else %} {% endif %}
 
     {% if site.data.settings.lab %}
-      <li><a href="{{ site.data.settings.github }}"><i class="ion ion-md-home"></i></a></li>
+      <li><a href="{{ site.data.settings.lab }}"><i class="ion ion-md-home"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.cv %}
+      <li><a href="{{ site.data.settings.cv }}"><i class="ion ion-md-home"></i></a></li>
     {% else %} {% endif %}
    
   </ul>
