@@ -11,12 +11,17 @@ layout: default
 	{% include publications_intro.html %}
 </div>
 
+<div class="section-block">
 {% include research-experience.html %}
 
-{% include awards.html %}
-
-{% include reviewer.html %}
-
+<div class="section-block">
+	{% include awards.html %}
+</div>
+	
+<div class="section-block">
+	{% include reviewer.html %}
+</div>
+	
 <div class="container">
 	<div class="row">
 	{% if site.posts.size > 0 %}
