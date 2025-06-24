@@ -20,4 +20,18 @@
   {% endcapture %}
   {{ include_to_scssify | scssify }}
   </style>
+
+  <style>
+  /* News-list 와 Publication-item 모두 위아래 2rem 여백 */
+  ul.news-list,
+  .publication-item {
+    margin: 2rem 0 !important;
+  }
+  /* Publication p 태그 기본 문단 여백도, 필요 시 재설정 */
+  .publication-item p {
+    margin: 0 0 1rem; /* 아래만 1rem */
+  }
+  </style>
+
+  
 </head>
