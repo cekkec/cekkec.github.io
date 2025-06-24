@@ -1,5 +1,37 @@
 <div class="contact">
   <ul class="contact__list list-reset">
+    {% if site.data.settings.google %}
+      <li><a href="{{ site.data.settings.google }}"><i class="ion ion-logo-google"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.linkedin %}
+      <li><a href="{{ site.data.settings.linkedin }}"><i class="ion ion-logo-linkedin"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.cv %}
+      <li><a href="{{ site.data.settings.cv }}"><i class="ion ion-md-document"></i></a></li>
+    {% else %} {% endif %}
+  
+    {% if site.data.settings.instagram %}
+      <li><a href="{{ site.data.settings.instagram }}"><i class="ion ion-logo-instagram"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.lab %}
+      <li><a href="{{ site.data.settings.lab }}"><i class="ion ion-md-home"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.github %}
+      <li><a href="{{ site.data.settings.github }}"><i class="ion ion-logo-github"></i></a></li>
+    {% else %} {% endif %}
+
+    
+
+
+  
+<!--     {% if site.data.settings.pinterest %}
+      <li><a href="{{ site.data.settings.pinterest }}"><i class="ion ion-logo-pinterest"></i></a></li>
+    {% else %} {% endif %}
+
     {% if site.data.settings.twitter %}
       <li><a href="{{ site.data.settings.twitter }}"><i class="ion ion-logo-twitter"></i></a></li>
     {% else %} {% endif %}
@@ -10,35 +42,9 @@
   
     {% if site.data.settings.dribbble %}
       <li><a href="{{ site.data.settings.dribbble }}"><i class="ion ion-logo-dribbble"></i></a></li>
-    {% else %} {% endif %}
+    {% else %} {% endif %} -->
 
-    {% if site.data.settings.google %}
-      <li><a href="{{ site.data.settings.google }}"><i class="ion ion-logo-google"></i></a></li>
-    {% else %} {% endif %}
 
-    {% if site.data.settings.linkedin %}
-      <li><a href="{{ site.data.settings.linkedin }}"><i class="ion ion-logo-linkedin"></i></a></li>
-    {% else %} {% endif %}
-  
-    {% if site.data.settings.instagram %}
-      <li><a href="{{ site.data.settings.instagram }}"><i class="ion ion-logo-instagram"></i></a></li>
-    {% else %} {% endif %}
-  
-    {% if site.data.settings.pinterest %}
-      <li><a href="{{ site.data.settings.pinterest }}"><i class="ion ion-logo-pinterest"></i></a></li>
-    {% else %} {% endif %}
-
-    {% if site.data.settings.github %}
-      <li><a href="{{ site.data.settings.github }}"><i class="ion ion-logo-github"></i></a></li>
-    {% else %} {% endif %}
-
-    {% if site.data.settings.lab %}
-      <li><a href="{{ site.data.settings.lab }}"><i class="ion ion-md-home"></i></a></li>
-    {% else %} {% endif %}
-
-    {% if site.data.settings.cv %}
-      <li><a href="{{ site.data.settings.cv }}"><i class="ion ion-md-home"></i></a></li>
-    {% else %} {% endif %}
    
   </ul>
 </div>
