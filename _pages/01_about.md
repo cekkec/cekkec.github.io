@@ -12,4 +12,4 @@ My primary research interests focus on advancing mask segmentation techniques ac
 
 Further extending my research scope, I have explored applications in medical imaging and remote sensing, actively employing predicted segmentation outcomes and detection box data. More specifically, my research involves generating synthetic datasets from predicted masks to address significant challenges associated with the high cost and time-intensive nature of dataset creation, as well as developing mask-based graph structures to improve domain-specific model comprehension.
 
-In future research endeavors, I aim to continue exploring diverse segmentation-related tasks, focusing on enhancing model interpretability and domain-specific understanding.
+In future research endeavors, I aim to continue exploring diverse segmentation-related tasks, focusing on enhancing model interpretability and domain-specific understanding. Besides my research, I enjoy staying active through sports and exploring new places by traveling.
