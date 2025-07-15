@@ -12,3 +12,7 @@
 ### 3. Intro Section [Publications]
 - File Path: `_includes/publications_intro.html`
 - Task: Add paper details only (no image).
+
+- ### 4. CV [Publications]
+- File Path: `files/EunkiCho_CV`
+- Task: Update PDF file of CV
